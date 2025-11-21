@@ -1,0 +1,299 @@
+﻿@page "/"
+
+<PageTitle>Portal Saúde Conectada - Plataforma Inteligente de Integração de Dados</PageTitle>
+
+<MudContainer MaxWidth="MaxWidth.ExtraLarge" Class="py-12">
+
+    <!-- HERO SECTION -->
+    <MudGrid Spacing="3" Class="mb-16">
+        <MudItem xs="12" md="6" Class="d-flex flex-column justify-center">
+            <MudStack Spacing="3">
+                <MudText Typo="Typo.h3" Class="font-weight-bold">
+                    Revolucionando a Gestão do Cuidado com Inteligência Assistiva
+                </MudText>
+                <MudText Typo="Typo.subtitle1" Color="Color.Secondary" Class="mb-3">
+                    O <strong>Portal Saúde Conectada</strong> é uma plataforma inovadora que fortalece a integração de dados de saúde do Brasil, combinando expertise clínica e Inteligência Artificial para um cuidado mais seguro, personalizado e eficiente.
+                </MudText>
+                <MudStack Row="true" Spacing="2">
+                    <MudButton Variant="Variant.Filled" Color="Color.Primary" Href="solicitacao-adesao" Size="Size.Large">
+                        Solicite uma Demonstração
+                    </MudButton>
+                    <MudButton Variant="Variant.Outlined" Color="Color.Primary" Size="Size.Large">
+                        Saiba Mais
+                    </MudButton>
+                </MudStack>
+            </MudStack>
+        </MudItem>
+        <MudItem xs="12" md="6" Class="d-flex justify-center align-center">
+            <img src="images/imagem01.png" alt="Profissional de saúde sorrindo" style="width: 100%; max-width: 450px; border-radius: 8px;" />
+        </MudItem>
+    </MudGrid>
+
+    <!-- ASSISTENTES VIRTUAIS -->
+    <MudStack Spacing="4" Class="mb-16">
+        <MudText Typo="Typo.h4" Class="font-weight-bold text-center mb-6">
+            Nossa Família de Assistentes Virtuais
+        </MudText>
+        <MudGrid Spacing="3">
+            <!-- WANDA -->
+            <MudItem xs="12" md="4">
+                <MudCard Class="h-100">
+                    <MudCardContent>
+                        <MudStack Spacing="3" Class="text-center">
+                            <a href="https://alice.com.br/blog/pessoas/wanda-horta-enfermeira-cuidado-saude/"
+                               target="_blank"
+                               title="Clique aqui para conhecer a historia de Wanda de Aguiar Horta"
+                               style="text-decoration: none;">
+                                <img src="images/wandaAtual.jpg" alt="Homenagem a Wanda de Aguiar Horta"
+                                     style="width: 100%; max-width: 200px; border-radius: 8px; cursor: pointer;" />
+                            </a>
+                            <MudText Typo="Typo.h6" Class="font-weight-bold">Wanda</MudText>
+                            <MudText Typo="Typo.body2" Color="Color.Secondary">
+                                <strong>Apoio à Enfermagem:</strong> Atua como um sistema de apoio à decisão para o enfermeiro clínico, fortalecendo a coordenação do cuidado, o raciocínio clínico e a gestão colaborativa.
+                            </MudText>
+                        </MudStack>
+                    </MudCardContent>
+                </MudCard>
+            </MudItem>
+
+            <!-- GERALDA -->
+            <MudItem xs="12" md="4">
+                <MudCard Class="h-100">
+                    <MudCardContent>
+                        <MudStack Spacing="3" Class="text-center">
+                            <MudIcon Icon="@Icons.Material.Filled.FavoriteBorder" Size="Size.Large" Color="Color.Primary" />
+                            <MudText Typo="Typo.h6" Class="font-weight-bold">Geralda</MudText>
+                            <MudText Typo="Typo.body2" Color="Color.Secondary">
+                                <strong>Apoio ao Paciente e Cuidador:</strong> Auxilia na organização do cuidado diário, gera lembretes, organiza informações de saúde e prepara pacientes para consultas e exames.
+                            </MudText>
+                        </MudStack>
+                    </MudCardContent>
+                </MudCard>
+            </MudItem>
+
+            <!-- DONABEDIAN -->
+            <MudItem xs="12" md="4">
+                <MudCard Class="h-100">
+                    <MudCardContent>
+                        <MudStack Spacing="3" Class="text-center">
+                            <a href="https://blogdaqualidade.com.br/saude-os-7-pilares-da-qualidade-de-avedis-donabedian/"
+                               target="_blank"
+                               title="Clique aqui para conhecer a historia de Avedis Donabedian"
+                               style="text-decoration: none;">
+                                <img src="images/donabedian.jpg" alt="Homenagem a Avedis Donabedian"
+                                     style="width: 100%; max-width: 200px; border-radius: 8px; cursor: pointer;" />
+                            </a>
+                            <MudText Typo="Typo.h6" Class="font-weight-bold">Donabedian</MudText>
+                            <MudText Typo="Typo.body2" Color="Color.Secondary">
+                                <strong>Apoio à Gestão:</strong> Focado no gerenciamento operacional e na avaliação de impacto do serviço, monitorando o desempenho e os resultados da Meta Quádrupla em Saúde.
+                            </MudText>
+                        </MudStack>
+                    </MudCardContent>
+                </MudCard>
+            </MudItem>
+        </MudGrid>
+    </MudStack>
+
+    <!-- ARQUITETURA MCP -->
+    <MudStack Spacing="4" Class="mb-16">
+        <MudText Typo="Typo.h4" Class="font-weight-bold text-center mb-6">
+            Arquitetura MCP: O Coração da Inteligência
+        </MudText>
+        <MudGrid Spacing="3" Justify="Justify.Center" AlignItems="AlignItems.Center">
+            <MudItem xs="12" md="6" Class="d-flex justify-center">
+                <img src="images/CuidadoConectado.png" alt="Diagrama da Arquitetura MCP Intellicare"
+                     style="width: 100%; border-radius: 8px;" />
+            </MudItem>
+            <MudItem xs="12" md="6">
+                <MudStack Spacing="4">
+                    <!-- Model -->
+                    <MudStack Row="true" Spacing="3" AlignItems="AlignItems.Start">
+                        <MudIcon Icon="@Icons.Material.Filled.MenuBook" Size="Size.Large" Color="Color.Primary" />
+                        <MudStack Spacing="1">
+                            <MudText Typo="Typo.h6" Class="font-weight-bold">Model</MudText>
+                            <MudText Typo="Typo.body2" Color="Color.Secondary">
+                                A base de conhecimento clínico, organizando protocolos, ontologias e regras de negócio.
+                            </MudText>
+                        </MudStack>
+                    </MudStack>
+
+                    <!-- Context -->
+                    <MudStack Row="true" Spacing="3" AlignItems="AlignItems.Start">
+                        <MudIcon Icon="@Icons.Material.Filled.AccountTree" Size="Size.Large" Color="Color.Primary" />
+                        <MudStack Spacing="1">
+                            <MudText Typo="Typo.h6" Class="font-weight-bold">Context</MudText>
+                            <MudText Typo="Typo.body2" Color="Color.Secondary">
+                                Representa o estado dinâmico do paciente e da equipe, capturando dados em tempo real.
+                            </MudText>
+                        </MudStack>
+                    </MudStack>
+
+                    <!-- Protocol -->
+                    <MudStack Row="true" Spacing="3" AlignItems="AlignItems.Start">
+                        <MudIcon Icon="@Icons.Material.Filled.Assignment" Size="Size.Large" Color="Color.Primary" />
+                        <MudStack Spacing="1">
+                            <MudText Typo="Typo.h6" Class="font-weight-bold">Protocol</MudText>
+                            <MudText Typo="Typo.body2" Color="Color.Secondary">
+                                Traduz o conhecimento em ações, gerando tarefas e planos de cuidado executáveis e auditáveis.
+                            </MudText>
+                        </MudStack>
+                    </MudStack>
+                </MudStack>
+            </MudItem>
+        </MudGrid>
+    </MudStack>
+
+    <!-- EQUIPE -->
+    <MudStack Spacing="4" Class="mb-16">
+        <MudText Typo="Typo.h4" Class="font-weight-bold text-center mb-6">
+            Conheça Nossos Especialistas
+        </MudText>
+        <MudGrid Spacing="3">
+            <!-- Carolina -->
+            <MudItem xs="12" sm="6" md="3">
+                <MudCard Class="h-100">
+                    <MudCardContent>
+                        <MudStack Spacing="2" Class="text-center">
+                            <img src="https://img.freepik.com/fotos-gratis/mulher-de-negocios-senior-com-oculos-e-cabelo-grisalho-em-pe-contra-a-parede-branca-no-escritorio_662251-274.jpg?w=1380"
+                                 alt="Foto de Carolina Caram"
+                                 style="width: 120px; height: 120px; border-radius: 50%; object-fit: cover; margin: 0 auto; border: 3px solid #1976d2;" />
+                            <MudText Typo="Typo.h6" Class="font-weight-bold">Dra. Carolina Caram</MudText>
+                            <MudText Typo="Typo.body2" Color="Color.Primary" Class="font-weight-bold">Líder Clínica (UFMG)</MudText>
+                            <MudText Typo="Typo.caption" Color="Color.Secondary">
+                                Enfermeira, PhD. Especialista em cuidado ao idoso e práticas baseadas em evidências. Responsável pela curadoria clínica e validação dos protocolos.
+                            </MudText>
+                        </MudStack>
+                    </MudCardContent>
+                </MudCard>
+            </MudItem>
+
+            <!-- André -->
+            <MudItem xs="12" sm="6" md="3">
+                <MudCard Class="h-100">
+                    <MudCardContent>
+                        <MudStack Spacing="2" Class="text-center">
+                            <img src="https://img.freepik.com/fotos-gratis/retrato-de-homem-de-negocios-afro-americano-sorridente-em-traje-formal-trabalhando-no-escritorio-moderno_1258-123490.jpg?w=1380"
+                                 alt="Foto de André Correa"
+                                 style="width: 120px; height: 120px; border-radius: 50%; object-fit: cover; margin: 0 auto; border: 3px solid #1976d2;" />
+                            <MudText Typo="Typo.h6" Class="font-weight-bold">Dr. André Correa</MudText>
+                            <MudText Typo="Typo.body2" Color="Color.Primary" Class="font-weight-bold">Líder de IA (CI-IA Saúde)</MudText>
+                            <MudText Typo="Typo.caption" Color="Color.Secondary">
+                                Cientista da Computação, PhD. Especialista em Processamento de Linguagem Natural e arquitetura de sistemas de IA. Lidera o desenvolvimento técnico do MCP.
+                            </MudText>
+                        </MudStack>
+                    </MudCardContent>
+                </MudCard>
+            </MudItem>
+
+            <!-- Juliana -->
+            <MudItem xs="12" sm="6" md="3">
+                <MudCard Class="h-100">
+                    <MudCardContent>
+                        <MudStack Spacing="2" Class="text-center">
+                            <img src="https://img.freepik.com/fotos-gratis/retrato-de-uma-jovem-e-bela-empresaria-asiatica-em-pe-e-sorrindo-para-a-camera-com-o-braco-cruzado-no-escritorio_7861-2831.jpg?w=1380"
+                                 alt="Foto de Juliana Santos"
+                                 style="width: 120px; height: 120px; border-radius: 50%; object-fit: cover; margin: 0 auto; border: 3px solid #1976d2;" />
+                            <MudText Typo="Typo.h6" Class="font-weight-bold">Juliana Santos</MudText>
+                            <MudText Typo="Typo.body2" Color="Color.Primary" Class="font-weight-bold">Gerente de Produto (EC)</MudText>
+                            <MudText Typo="Typo.caption" Color="Color.Secondary">
+                                Engenheira de Produção com MBA em Gestão de Saúde. Responsável pela integração do MCP ao CarePlanner e Service Manager, garantindo a entrega de valor.
+                            </MudText>
+                        </MudStack>
+                    </MudCardContent>
+                </MudCard>
+            </MudItem>
+
+            <!-- Isabela -->
+            <MudItem xs="12" sm="6" md="3">
+                <MudCard Class="h-100">
+                    <MudCardContent>
+                        <MudStack Spacing="2" Class="text-center">
+                            <img src="https://img.freepik.com/fotos-gratis/enfermeira-negra-em-uniforme-medico-com-estetoscopio-em-torno-do-pescoco-em-pe-com-os-bracos-cruzados_1098-19904.jpg?w=1380"
+                                 alt="Foto de Isabela Velloso"
+                                 style="width: 120px; height: 120px; border-radius: 50%; object-fit: cover; margin: 0 auto; border: 3px solid #1976d2;" />
+                            <MudText Typo="Typo.h6" Class="font-weight-bold">Enf. Isabela Velloso</MudText>
+                            <MudText Typo="Typo.body2" Color="Color.Primary" Class="font-weight-bold">Especialista de Campo (HDG)</MudText>
+                            <MudText Typo="Typo.caption" Color="Color.Secondary">
+                                Enfermeira especialista em gerontologia no Hospital Dilson Godinho. Atua na validação prática dos assistentes e garante a aderência ao fluxo de trabalho real.
+                            </MudText>
+                        </MudStack>
+                    </MudCardContent>
+                </MudCard>
+            </MudItem>
+        </MudGrid>
+    </MudStack>
+
+    <!-- PARCEIROS -->
+    <MudStack Spacing="4" Class="mb-16">
+        <MudText Typo="Typo.h4" Class="font-weight-bold text-center mb-6">
+            Nossos Parceiros Estratégicos
+        </MudText>
+        <MudGrid Spacing="3" Justify="Justify.Center" AlignItems="AlignItems.Center">
+            <MudItem xs="6" sm="3" Class="text-center">
+                <img src="https://ciia-saude.dcc.ufmg.br/wp-content/uploads/cropped-Marca-CI-IA-03.png"
+                     alt="Logo CI-IA Saúde UFMG"
+                     style="max-height: 60px; filter: grayscale(100%); opacity: 0.7; transition: all 0.3s ease; cursor: pointer;"
+                     onmouseover="this.style.filter='grayscale(0%)'; this.style.opacity='1';"
+                     onmouseout="this.style.filter='grayscale(100%)'; this.style.opacity='0.7';" />
+            </MudItem>
+            <MudItem xs="6" sm="3" Class="text-center">
+                <img src="https://www.enf.ufmg.br/pos/imagens/logoEnfermagemAssinado.png"
+                     alt="Logo Escola de Enfermagem UFMG"
+                     style="max-height: 60px; width: 90%; filter: grayscale(100%); opacity: 0.7; transition: all 0.3s ease; cursor: pointer;"
+                     onmouseover="this.style.filter='grayscale(0%)'; this.style.opacity='1';"
+                     onmouseout="this.style.filter='grayscale(100%)'; this.style.opacity='0.7';" />
+            </MudItem>
+            <MudItem xs="6" sm="3" Class="text-center">
+                <img src="https://www.fundacaodilsongodinho.org.br/uploads/website-images/logo.png"
+                     alt="Logo Hospital Dilson Godinho"
+                     style="max-height: 60px; filter: grayscale(100%); opacity: 0.7; transition: all 0.3s ease; cursor: pointer;"
+                     onmouseover="this.style.filter='grayscale(0%)'; this.style.opacity='1';"
+                     onmouseout="this.style.filter='grayscale(100%)'; this.style.opacity='0.7';" />
+            </MudItem>
+            <MudItem xs="6" sm="3" Class="text-center">
+                <img src="https://embrapii.org.br/wp-content/uploads/2024/12/logotipo-e1733865388259.webp"
+                     alt="Logo Embrapii"
+                     style="max-height: 60px; filter: grayscale(100%); opacity: 0.7; transition: all 0.3s ease; cursor: pointer;"
+                     onmouseover="this.style.filter='grayscale(0%)'; this.style.opacity='1';"
+                     onmouseout="this.style.filter='grayscale(100%)'; this.style.opacity='0.7';" />
+            </MudItem>
+        </MudGrid>
+    </MudStack>
+
+    <!-- CALL TO ACTION -->
+    <MudCard Class="mb-8" Elevation="2">
+        <MudCardContent Class="pa-8">
+            <MudStack Spacing="4" AlignItems="AlignItems.Center" Class="text-center">
+                <MudText Typo="Typo.h5" Class="font-weight-bold">
+                    Pronto para transformar a gestão do cuidado em sua instituição?
+                </MudText>
+                <MudText Typo="Typo.body1" Color="Color.Secondary">
+                    Entre em contato conosco para agendar uma demonstração e descubra como o MCP Intellicare pode potencializar sua equipe de enfermagem e melhorar os desfechos para seus pacientes.
+                </MudText>
+                <MudButton Variant="Variant.Filled" Color="Color.Primary" Href="solicitacao-adesao" Size="Size.Large">
+                    Quero saber mais
+                </MudButton>
+            </MudStack>
+        </MudCardContent>
+    </MudCard>
+
+</MudContainer>
+
+<style>
+    :deep(.mud-card) {
+        transition: transform 0.2s ease, box-shadow 0.2s ease;
+    }
+
+    :deep(.mud-card:hover) {
+        transform: translateY(-4px);
+        box-shadow: 0 8px 24px rgba(0, 0, 0, 0.15) !important;
+    }
+
+    .text-center {
+        text-align: center;
+    }
+</style>
+
+@code {
+
+}
