@@ -2322,11 +2322,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\egara\\source\\repos\\portal_saude_conectada\\portal_saude_conectada\\portal_saude_conectada.csproj",
+      "projectUniqueName": "C:\\Projetos\\SaudeConectada\\Desenvolvimento-Projeto\\PortalSaudeConectada\\portal_saude_conectada\\portal_saude_conectada.csproj",
       "projectName": "portal_saude_conectada",
-      "projectPath": "C:\\Users\\egara\\source\\repos\\portal_saude_conectada\\portal_saude_conectada\\portal_saude_conectada.csproj",
+      "projectPath": "C:\\Projetos\\SaudeConectada\\Desenvolvimento-Projeto\\PortalSaudeConectada\\portal_saude_conectada\\portal_saude_conectada.csproj",
       "packagesPath": "C:\\Users\\egara\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\egara\\source\\repos\\portal_saude_conectada\\portal_saude_conectada\\obj\\",
+      "outputPath": "C:\\Projetos\\SaudeConectada\\Desenvolvimento-Projeto\\PortalSaudeConectada\\portal_saude_conectada\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

@@ -5,7 +5,7 @@ var e=!1;const t=async()=>WebAssembly.validate(new Uint8Array([0,97,115,109,1,0,
   "mainAssemblyName": "portal_saude_conectada",
   "applicationEnvironment": "Development",
   "resources": {
-    "hash": "sha256-ViEROI4oSAUviwAcov3c2psopoRrv1iz/ocJBgFvgYw=",
+    "hash": "sha256-NGl6dxIoYu6yvOsmj33Hq2V1uXG3w1bo5HzjjKGnaOM=",
     "jsModuleNative": [
       {
         "name": "dotnet.native.xanz2e7ksm.js"
@@ -1054,15 +1054,15 @@ var e=!1;const t=async()=>WebAssembly.validate(new Uint8Array([0,97,115,109,1,0,
       },
       {
         "virtualPath": "portal_saude_conectada.wasm",
-        "name": "portal_saude_conectada.ccfxqoybj5.wasm",
-        "integrity": "sha256-FJpK/WOIKT3qqHzsBB5YKlFOKCuSlrWys3StUcj8QhI="
+        "name": "portal_saude_conectada.6hxe6wjc02.wasm",
+        "integrity": "sha256-+hb6KlPv7MYbamjO7e9acn1KhPLmm91Q5oziZCiXii0="
       }
     ],
     "pdb": [
       {
         "virtualPath": "portal_saude_conectada.pdb",
-        "name": "portal_saude_conectada.nmi316eat2.pdb",
-        "integrity": "sha256-D1oitTqdLcdRITdeV1218RJIpBhuHOPZ9NodTzIx1a0="
+        "name": "portal_saude_conectada.abgmjjo2mh.pdb",
+        "integrity": "sha256-6uQeQe8yBm+0TNEPS385jtBj/mzQeMsVNCmFN9yokaY="
       }
     ],
     "libraryInitializers": [

@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("portal_saude_conectada")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+86121380cc5a70469a7bc4a41e92b8d3a7f1a157")]
 [assembly: System.Reflection.AssemblyProductAttribute("portal_saude_conectada")]
 [assembly: System.Reflection.AssemblyTitleAttribute("portal_saude_conectada")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

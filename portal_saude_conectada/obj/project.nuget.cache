@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "8pcgaFSCeMI=",
+  "dgSpecHash": "kpLzoW6klmY=",
   "success": true,
-  "projectFilePath": "C:\\Users\\egara\\source\\repos\\portal_saude_conectada\\portal_saude_conectada\\portal_saude_conectada.csproj",
+  "projectFilePath": "C:\\Projetos\\SaudeConectada\\Desenvolvimento-Projeto\\PortalSaudeConectada\\portal_saude_conectada\\portal_saude_conectada.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\egara\\.nuget\\packages\\microsoft.aspnetcore.app.internal.assets\\10.0.0\\microsoft.aspnetcore.app.internal.assets.10.0.0.nupkg.sha512",
     "C:\\Users\\egara\\.nuget\\packages\\microsoft.aspnetcore.authorization\\10.0.0\\microsoft.aspnetcore.authorization.10.0.0.nupkg.sha512",

@@ -1,30 +1,34 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\egara\\source\\repos\\portal_saude_conectada\\",
+  "WorkspaceRootPath": "C:\\Projetos\\SaudeConectada\\Desenvolvimento-Projeto\\PortalSaudeConectada\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{BA2DFF64-BE93-4363-8743-578B06D3A30F}|portal_saude_conectada\\portal_saude_conectada.csproj|c:\\users\\egara\\source\\repos\\portal_saude_conectada\\portal_saude_conectada\\layout\\navmenu.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{BA2DFF64-BE93-4363-8743-578B06D3A30F}|portal_saude_conectada\\portal_saude_conectada.csproj|solutionrelative:portal_saude_conectada\\layout\\navmenu.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{6FED89F4-5A5D-7BE9-412A-4B3CC98693FE}|portal_saude_conectada\\portal_saude_conectada.csproj|c:\\projetos\\saudeconectada\\desenvolvimento-projeto\\portalsaudeconectada\\portal_saude_conectada\\pages\\home.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6FED89F4-5A5D-7BE9-412A-4B3CC98693FE}|portal_saude_conectada\\portal_saude_conectada.csproj|solutionrelative:portal_saude_conectada\\pages\\home.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{BA2DFF64-BE93-4363-8743-578B06D3A30F}|portal_saude_conectada\\portal_saude_conectada.csproj|c:\\users\\egara\\source\\repos\\portal_saude_conectada\\portal_saude_conectada\\layout\\mainlayout.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{BA2DFF64-BE93-4363-8743-578B06D3A30F}|portal_saude_conectada\\portal_saude_conectada.csproj|solutionrelative:portal_saude_conectada\\layout\\mainlayout.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{6FED89F4-5A5D-7BE9-412A-4B3CC98693FE}|portal_saude_conectada\\portal_saude_conectada.csproj|c:\\projetos\\saudeconectada\\desenvolvimento-projeto\\portalsaudeconectada\\portal_saude_conectada\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6FED89F4-5A5D-7BE9-412A-4B3CC98693FE}|portal_saude_conectada\\portal_saude_conectada.csproj|solutionrelative:portal_saude_conectada\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{BA2DFF64-BE93-4363-8743-578B06D3A30F}|portal_saude_conectada\\portal_saude_conectada.csproj|c:\\users\\egara\\source\\repos\\portal_saude_conectada\\portal_saude_conectada\\app.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{BA2DFF64-BE93-4363-8743-578B06D3A30F}|portal_saude_conectada\\portal_saude_conectada.csproj|solutionrelative:portal_saude_conectada\\app.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{6FED89F4-5A5D-7BE9-412A-4B3CC98693FE}|portal_saude_conectada\\portal_saude_conectada.csproj|c:\\projetos\\saudeconectada\\desenvolvimento-projeto\\portalsaudeconectada\\portal_saude_conectada\\layout\\navmenu.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6FED89F4-5A5D-7BE9-412A-4B3CC98693FE}|portal_saude_conectada\\portal_saude_conectada.csproj|solutionrelative:portal_saude_conectada\\layout\\navmenu.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{BA2DFF64-BE93-4363-8743-578B06D3A30F}|portal_saude_conectada\\portal_saude_conectada.csproj|c:\\users\\egara\\source\\repos\\portal_saude_conectada\\portal_saude_conectada\\pages\\home.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{BA2DFF64-BE93-4363-8743-578B06D3A30F}|portal_saude_conectada\\portal_saude_conectada.csproj|solutionrelative:portal_saude_conectada\\pages\\home.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{6FED89F4-5A5D-7BE9-412A-4B3CC98693FE}|portal_saude_conectada\\portal_saude_conectada.csproj|c:\\projetos\\saudeconectada\\desenvolvimento-projeto\\portalsaudeconectada\\portal_saude_conectada\\layout\\mainlayout.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6FED89F4-5A5D-7BE9-412A-4B3CC98693FE}|portal_saude_conectada\\portal_saude_conectada.csproj|solutionrelative:portal_saude_conectada\\layout\\mainlayout.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{BA2DFF64-BE93-4363-8743-578B06D3A30F}|portal_saude_conectada\\portal_saude_conectada.csproj|c:\\users\\egara\\source\\repos\\portal_saude_conectada\\portal_saude_conectada\\wwwroot\\index.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{BA2DFF64-BE93-4363-8743-578B06D3A30F}|portal_saude_conectada\\portal_saude_conectada.csproj|solutionrelative:portal_saude_conectada\\wwwroot\\index.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{6FED89F4-5A5D-7BE9-412A-4B3CC98693FE}|portal_saude_conectada\\portal_saude_conectada.csproj|c:\\projetos\\saudeconectada\\desenvolvimento-projeto\\portalsaudeconectada\\portal_saude_conectada\\_imports.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6FED89F4-5A5D-7BE9-412A-4B3CC98693FE}|portal_saude_conectada\\portal_saude_conectada.csproj|solutionrelative:portal_saude_conectada\\_imports.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{BA2DFF64-BE93-4363-8743-578B06D3A30F}|portal_saude_conectada\\portal_saude_conectada.csproj|c:\\users\\egara\\source\\repos\\portal_saude_conectada\\portal_saude_conectada\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BA2DFF64-BE93-4363-8743-578B06D3A30F}|portal_saude_conectada\\portal_saude_conectada.csproj|solutionrelative:portal_saude_conectada\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{6FED89F4-5A5D-7BE9-412A-4B3CC98693FE}|portal_saude_conectada\\portal_saude_conectada.csproj|c:\\projetos\\saudeconectada\\desenvolvimento-projeto\\portalsaudeconectada\\portal_saude_conectada\\wwwroot\\index.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6FED89F4-5A5D-7BE9-412A-4B3CC98693FE}|portal_saude_conectada\\portal_saude_conectada.csproj|solutionrelative:portal_saude_conectada\\wwwroot\\index.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6FED89F4-5A5D-7BE9-412A-4B3CC98693FE}|portal_saude_conectada\\portal_saude_conectada.csproj|c:\\projetos\\saudeconectada\\desenvolvimento-projeto\\portalsaudeconectada\\portal_saude_conectada\\app.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6FED89F4-5A5D-7BE9-412A-4B3CC98693FE}|portal_saude_conectada\\portal_saude_conectada.csproj|solutionrelative:portal_saude_conectada\\app.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
   "DocumentGroupContainers": [
@@ -34,7 +38,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 6,
           "Children": [
             {
               "$type": "Bookmark",
@@ -46,76 +50,88 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "App.razor",
-              "DocumentMoniker": "C:\\Users\\egara\\source\\repos\\portal_saude_conectada\\portal_saude_conectada\\App.razor",
-              "RelativeDocumentMoniker": "portal_saude_conectada\\App.razor",
-              "ToolTip": "C:\\Users\\egara\\source\\repos\\portal_saude_conectada\\portal_saude_conectada\\App.razor",
-              "RelativeToolTip": "portal_saude_conectada\\App.razor",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 4,
+              "Title": "_Imports.razor",
+              "DocumentMoniker": "C:\\Projetos\\SaudeConectada\\Desenvolvimento-Projeto\\PortalSaudeConectada\\portal_saude_conectada\\_Imports.razor",
+              "RelativeDocumentMoniker": "portal_saude_conectada\\_Imports.razor",
+              "ToolTip": "C:\\Projetos\\SaudeConectada\\Desenvolvimento-Projeto\\PortalSaudeConectada\\portal_saude_conectada\\_Imports.razor",
+              "RelativeToolTip": "portal_saude_conectada\\_Imports.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAkAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-11-21T11:24:03.753Z",
+              "WhenOpened": "2025-11-21T11:27:14.681Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 6,
+              "Title": "App.razor",
+              "DocumentMoniker": "C:\\Projetos\\SaudeConectada\\Desenvolvimento-Projeto\\PortalSaudeConectada\\portal_saude_conectada\\App.razor",
+              "RelativeDocumentMoniker": "portal_saude_conectada\\App.razor",
+              "ToolTip": "C:\\Projetos\\SaudeConectada\\Desenvolvimento-Projeto\\PortalSaudeConectada\\portal_saude_conectada\\App.razor",
+              "RelativeToolTip": "portal_saude_conectada\\App.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-21T11:24:03.753Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "NavMenu.razor",
-              "DocumentMoniker": "C:\\Users\\egara\\source\\repos\\portal_saude_conectada\\portal_saude_conectada\\Layout\\NavMenu.razor",
+              "DocumentMoniker": "C:\\Projetos\\SaudeConectada\\Desenvolvimento-Projeto\\PortalSaudeConectada\\portal_saude_conectada\\Layout\\NavMenu.razor",
               "RelativeDocumentMoniker": "portal_saude_conectada\\Layout\\NavMenu.razor",
-              "ToolTip": "C:\\Users\\egara\\source\\repos\\portal_saude_conectada\\portal_saude_conectada\\Layout\\NavMenu.razor*",
-              "RelativeToolTip": "portal_saude_conectada\\Layout\\NavMenu.razor*",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAA4AAAAAAAAAA==",
+              "ToolTip": "C:\\Projetos\\SaudeConectada\\Desenvolvimento-Projeto\\PortalSaudeConectada\\portal_saude_conectada\\Layout\\NavMenu.razor",
+              "RelativeToolTip": "portal_saude_conectada\\Layout\\NavMenu.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2025-11-21T11:23:04.549Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "MainLayout.razor",
-              "DocumentMoniker": "C:\\Users\\egara\\source\\repos\\portal_saude_conectada\\portal_saude_conectada\\Layout\\MainLayout.razor",
+              "DocumentMoniker": "C:\\Projetos\\SaudeConectada\\Desenvolvimento-Projeto\\PortalSaudeConectada\\portal_saude_conectada\\Layout\\MainLayout.razor",
               "RelativeDocumentMoniker": "portal_saude_conectada\\Layout\\MainLayout.razor",
-              "ToolTip": "C:\\Users\\egara\\source\\repos\\portal_saude_conectada\\portal_saude_conectada\\Layout\\MainLayout.razor",
+              "ToolTip": "C:\\Projetos\\SaudeConectada\\Desenvolvimento-Projeto\\PortalSaudeConectada\\portal_saude_conectada\\Layout\\MainLayout.razor",
               "RelativeToolTip": "portal_saude_conectada\\Layout\\MainLayout.razor",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAaAAAAAAAAAA==",
+              "ViewState": "AgIAAFcAAAAAAAAAAAAAABUAAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2025-11-21T11:21:48.505Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 0,
               "Title": "Home.razor",
-              "DocumentMoniker": "C:\\Users\\egara\\source\\repos\\portal_saude_conectada\\portal_saude_conectada\\Pages\\Home.razor",
+              "DocumentMoniker": "C:\\Projetos\\SaudeConectada\\Desenvolvimento-Projeto\\PortalSaudeConectada\\portal_saude_conectada\\Pages\\Home.razor",
               "RelativeDocumentMoniker": "portal_saude_conectada\\Pages\\Home.razor",
-              "ToolTip": "C:\\Users\\egara\\source\\repos\\portal_saude_conectada\\portal_saude_conectada\\Pages\\Home.razor",
-              "RelativeToolTip": "portal_saude_conectada\\Pages\\Home.razor",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAZAAAAAAAAAA==",
+              "ToolTip": "C:\\Projetos\\SaudeConectada\\Desenvolvimento-Projeto\\PortalSaudeConectada\\portal_saude_conectada\\Pages\\Home.razor*",
+              "RelativeToolTip": "portal_saude_conectada\\Pages\\Home.razor*",
+              "ViewState": "AgIAADgAAAAAAAAAAAAYwEoAAAAjAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2025-11-21T11:15:40.897Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "index.html",
-              "DocumentMoniker": "C:\\Users\\egara\\source\\repos\\portal_saude_conectada\\portal_saude_conectada\\wwwroot\\index.html",
+              "DocumentMoniker": "C:\\Projetos\\SaudeConectada\\Desenvolvimento-Projeto\\PortalSaudeConectada\\portal_saude_conectada\\wwwroot\\index.html",
               "RelativeDocumentMoniker": "portal_saude_conectada\\wwwroot\\index.html",
-              "ToolTip": "C:\\Users\\egara\\source\\repos\\portal_saude_conectada\\portal_saude_conectada\\wwwroot\\index.html",
+              "ToolTip": "C:\\Projetos\\SaudeConectada\\Desenvolvimento-Projeto\\PortalSaudeConectada\\portal_saude_conectada\\wwwroot\\index.html",
               "RelativeToolTip": "portal_saude_conectada\\wwwroot\\index.html",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAA/AAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAArAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
               "WhenOpened": "2025-11-21T11:13:48.998Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 1,
               "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\egara\\source\\repos\\portal_saude_conectada\\portal_saude_conectada\\Program.cs",
+              "DocumentMoniker": "C:\\Projetos\\SaudeConectada\\Desenvolvimento-Projeto\\PortalSaudeConectada\\portal_saude_conectada\\Program.cs",
               "RelativeDocumentMoniker": "portal_saude_conectada\\Program.cs",
-              "ToolTip": "C:\\Users\\egara\\source\\repos\\portal_saude_conectada\\portal_saude_conectada\\Program.cs",
+              "ToolTip": "C:\\Projetos\\SaudeConectada\\Desenvolvimento-Projeto\\PortalSaudeConectada\\portal_saude_conectada\\Program.cs",
               "RelativeToolTip": "portal_saude_conectada\\Program.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
