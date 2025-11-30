@@ -1,0 +1,66 @@
+@page "/admin/metrics"
+@using Microsoft.AspNetCore.Authorization
+@attribute [Authorize(Policy = "GestorOrAdmin")]
+
+<PageTitle>Métricas - Portal Saúde Conectada</PageTitle>
+
+<MudContainer MaxWidth="MaxWidth.ExtraLarge" Class="mt-4">
+    <MudText Typo="Typo.h4" GutterBottom="true">
+        📊 Métricas do Sistema
+    </MudText>
+
+    <MudGrid Class="mt-4">
+        <MudItem xs="12" sm="6" md="3">
+            <MudCard Elevation="2">
+                <MudCardContent>
+                    <MudText Typo="Typo.h6" Color="Color.Primary">Total de Projetos</MudText>
+                    <MudText Typo="Typo.h3">12</MudText>
+                </MudCardContent>
+            </MudCard>
+        </MudItem>
+
+        <MudItem xs="12" sm="6" md="3">
+            <MudCard Elevation="2">
+                <MudCardContent>
+                    <MudText Typo="Typo.h6" Color="Color.Success">Documentos</MudText>
+                    <MudText Typo="Typo.h3">1,234</MudText>
+                </MudCardContent>
+            </MudCard>
+        </MudItem>
+
+        <MudItem xs="12" sm="6" md="3">
+            <MudCard Elevation="2">
+                <MudCardContent>
+                    <MudText Typo="Typo.h6" Color="Color.Warning">Usuários Ativos</MudText>
+                    <MudText Typo="Typo.h3">45</MudText>
+                </MudCardContent>
+            </MudCard>
+        </MudItem>
+
+        <MudItem xs="12" sm="6" md="3">
+            <MudCard Elevation="2">
+                <MudCardContent>
+                    <MudText Typo="Typo.h6" Color="Color.Info">Acessos Hoje</MudText>
+                    <MudText Typo="Typo.h3">328</MudText>
+                </MudCardContent>
+            </MudCard>
+        </MudItem>
+    </MudGrid>
+
+    <MudPaper Class="pa-4 mt-4" Elevation="2">
+        <MudText Typo="Typo.h6" GutterBottom="true">
+            Visão Geral
+        </MudText>
+        <MudText Typo="Typo.body1">
+            Esta página está protegida e requer autenticação com perfil de <strong>Gestor</strong> ou <strong>Administrador</strong>.
+        </MudText>
+        <MudText Typo="Typo.body2" Class="mt-2" Color="Color.Secondary">
+            Em breve, aqui serão exibidas métricas reais obtidas da API.
+        </MudText>
+    </MudPaper>
+</MudContainer>
+
+@code {
+    // TODO: Integrar com API para buscar métricas reais
+}
+

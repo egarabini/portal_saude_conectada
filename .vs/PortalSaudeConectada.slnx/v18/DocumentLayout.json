@@ -1,0 +1,351 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Projetos\\SaudeConectada\\PortalSaudeConectada\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{E956DA5D-F3CE-95E6-2BC6-ECBF0E3ED913}|PortalSaudeConectada.Web\\PortalSaudeConectada.Web.csproj|c:\\projetos\\saudeconectada\\portalsaudeconectada\\portalsaudeconectada.web\\components\\pages\\login.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E956DA5D-F3CE-95E6-2BC6-ECBF0E3ED913}|PortalSaudeConectada.Web\\PortalSaudeConectada.Web.csproj|solutionrelative:portalsaudeconectada.web\\components\\pages\\login.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{045EC599-6951-F2EC-E36D-D968BABD594E}|PortalSaudeConectada.Api\\PortalSaudeConectada.Api.csproj|c:\\projetos\\saudeconectada\\portalsaudeconectada\\portalsaudeconectada.api\\features\\auth\\login\\loginendpoint.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{045EC599-6951-F2EC-E36D-D968BABD594E}|PortalSaudeConectada.Api\\PortalSaudeConectada.Api.csproj|solutionrelative:portalsaudeconectada.api\\features\\auth\\login\\loginendpoint.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E956DA5D-F3CE-95E6-2BC6-ECBF0E3ED913}|PortalSaudeConectada.Web\\PortalSaudeConectada.Web.csproj|c:\\projetos\\saudeconectada\\portalsaudeconectada\\portalsaudeconectada.web\\services\\auth\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E956DA5D-F3CE-95E6-2BC6-ECBF0E3ED913}|PortalSaudeConectada.Web\\PortalSaudeConectada.Web.csproj|solutionrelative:portalsaudeconectada.web\\services\\auth\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{77C4D888-128E-A232-05A0-20DB1F31453C}|PortalSaudeConectada.AppHost\\PortalSaudeConectada.AppHost.csproj|c:\\projetos\\saudeconectada\\portalsaudeconectada\\portalsaudeconectada.apphost\\apphost.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{77C4D888-128E-A232-05A0-20DB1F31453C}|PortalSaudeConectada.AppHost\\PortalSaudeConectada.AppHost.csproj|solutionrelative:portalsaudeconectada.apphost\\apphost.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{045EC599-6951-F2EC-E36D-D968BABD594E}|PortalSaudeConectada.Api\\PortalSaudeConectada.Api.csproj|c:\\projetos\\saudeconectada\\portalsaudeconectada\\portalsaudeconectada.api\\features\\auth\\login\\logincommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{045EC599-6951-F2EC-E36D-D968BABD594E}|PortalSaudeConectada.Api\\PortalSaudeConectada.Api.csproj|solutionrelative:portalsaudeconectada.api\\features\\auth\\login\\logincommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E956DA5D-F3CE-95E6-2BC6-ECBF0E3ED913}|PortalSaudeConectada.Web\\PortalSaudeConectada.Web.csproj|c:\\projetos\\saudeconectada\\portalsaudeconectada\\portalsaudeconectada.web\\components\\pages\\home.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E956DA5D-F3CE-95E6-2BC6-ECBF0E3ED913}|PortalSaudeConectada.Web\\PortalSaudeConectada.Web.csproj|solutionrelative:portalsaudeconectada.web\\components\\pages\\home.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{045EC599-6951-F2EC-E36D-D968BABD594E}|PortalSaudeConectada.Api\\PortalSaudeConectada.Api.csproj|c:\\projetos\\saudeconectada\\portalsaudeconectada\\portalsaudeconectada.api\\features\\admindocs\\getdoc\\getdocendpoint.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{045EC599-6951-F2EC-E36D-D968BABD594E}|PortalSaudeConectada.Api\\PortalSaudeConectada.Api.csproj|solutionrelative:portalsaudeconectada.api\\features\\admindocs\\getdoc\\getdocendpoint.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{045EC599-6951-F2EC-E36D-D968BABD594E}|PortalSaudeConectada.Api\\PortalSaudeConectada.Api.csproj|c:\\projetos\\saudeconectada\\portalsaudeconectada\\portalsaudeconectada.api\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{045EC599-6951-F2EC-E36D-D968BABD594E}|PortalSaudeConectada.Api\\PortalSaudeConectada.Api.csproj|solutionrelative:portalsaudeconectada.api\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{045EC599-6951-F2EC-E36D-D968BABD594E}|PortalSaudeConectada.Api\\PortalSaudeConectada.Api.csproj|c:\\projetos\\saudeconectada\\portalsaudeconectada\\portalsaudeconectada.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{045EC599-6951-F2EC-E36D-D968BABD594E}|PortalSaudeConectada.Api\\PortalSaudeConectada.Api.csproj|solutionrelative:portalsaudeconectada.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E956DA5D-F3CE-95E6-2BC6-ECBF0E3ED913}|PortalSaudeConectada.Web\\PortalSaudeConectada.Web.csproj|c:\\projetos\\saudeconectada\\portalsaudeconectada\\portalsaudeconectada.web\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E956DA5D-F3CE-95E6-2BC6-ECBF0E3ED913}|PortalSaudeConectada.Web\\PortalSaudeConectada.Web.csproj|solutionrelative:portalsaudeconectada.web\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E956DA5D-F3CE-95E6-2BC6-ECBF0E3ED913}|PortalSaudeConectada.Web\\PortalSaudeConectada.Web.csproj|c:\\projetos\\saudeconectada\\portalsaudeconectada\\portalsaudeconectada.web\\components\\app.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E956DA5D-F3CE-95E6-2BC6-ECBF0E3ED913}|PortalSaudeConectada.Web\\PortalSaudeConectada.Web.csproj|solutionrelative:portalsaudeconectada.web\\components\\app.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E956DA5D-F3CE-95E6-2BC6-ECBF0E3ED913}|PortalSaudeConectada.Web\\PortalSaudeConectada.Web.csproj|c:\\projetos\\saudeconectada\\portalsaudeconectada\\portalsaudeconectada.web\\components\\layout\\mainlayout.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E956DA5D-F3CE-95E6-2BC6-ECBF0E3ED913}|PortalSaudeConectada.Web\\PortalSaudeConectada.Web.csproj|solutionrelative:portalsaudeconectada.web\\components\\layout\\mainlayout.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E956DA5D-F3CE-95E6-2BC6-ECBF0E3ED913}|PortalSaudeConectada.Web\\PortalSaudeConectada.Web.csproj|c:\\projetos\\saudeconectada\\portalsaudeconectada\\portalsaudeconectada.web\\components\\_imports.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E956DA5D-F3CE-95E6-2BC6-ECBF0E3ED913}|PortalSaudeConectada.Web\\PortalSaudeConectada.Web.csproj|solutionrelative:portalsaudeconectada.web\\components\\_imports.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4195D639-F9F4-401B-4FA2-214F5805A005}|PortalSaudeConectada.Core\\PortalSaudeConectada.Core.csproj|c:\\projetos\\saudeconectada\\portalsaudeconectada\\portalsaudeconectada.core\\infrastructure\\repositories\\iusuariorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4195D639-F9F4-401B-4FA2-214F5805A005}|PortalSaudeConectada.Core\\PortalSaudeConectada.Core.csproj|solutionrelative:portalsaudeconectada.core\\infrastructure\\repositories\\iusuariorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E956DA5D-F3CE-95E6-2BC6-ECBF0E3ED913}|PortalSaudeConectada.Web\\PortalSaudeConectada.Web.csproj|c:\\projetos\\saudeconectada\\portalsaudeconectada\\portalsaudeconectada.web\\components\\layout\\navmenu.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E956DA5D-F3CE-95E6-2BC6-ECBF0E3ED913}|PortalSaudeConectada.Web\\PortalSaudeConectada.Web.csproj|solutionrelative:portalsaudeconectada.web\\components\\layout\\navmenu.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E956DA5D-F3CE-95E6-2BC6-ECBF0E3ED913}|PortalSaudeConectada.Web\\PortalSaudeConectada.Web.csproj|c:\\projetos\\saudeconectada\\portalsaudeconectada\\portalsaudeconectada.web\\components\\pages\\notfound.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E956DA5D-F3CE-95E6-2BC6-ECBF0E3ED913}|PortalSaudeConectada.Web\\PortalSaudeConectada.Web.csproj|solutionrelative:portalsaudeconectada.web\\components\\pages\\notfound.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E956DA5D-F3CE-95E6-2BC6-ECBF0E3ED913}|PortalSaudeConectada.Web\\PortalSaudeConectada.Web.csproj|c:\\projetos\\saudeconectada\\portalsaudeconectada\\portalsaudeconectada.web\\components\\pages\\error.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E956DA5D-F3CE-95E6-2BC6-ECBF0E3ED913}|PortalSaudeConectada.Web\\PortalSaudeConectada.Web.csproj|solutionrelative:portalsaudeconectada.web\\components\\pages\\error.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E956DA5D-F3CE-95E6-2BC6-ECBF0E3ED913}|PortalSaudeConectada.Web\\PortalSaudeConectada.Web.csproj|c:\\projetos\\saudeconectada\\portalsaudeconectada\\portalsaudeconectada.web\\components\\routes.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E956DA5D-F3CE-95E6-2BC6-ECBF0E3ED913}|PortalSaudeConectada.Web\\PortalSaudeConectada.Web.csproj|solutionrelative:portalsaudeconectada.web\\components\\routes.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E956DA5D-F3CE-95E6-2BC6-ECBF0E3ED913}|PortalSaudeConectada.Web\\PortalSaudeConectada.Web.csproj|c:\\projetos\\saudeconectada\\portalsaudeconectada\\portalsaudeconectada.web\\portalsaudeconectada.web.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{E956DA5D-F3CE-95E6-2BC6-ECBF0E3ED913}|PortalSaudeConectada.Web\\PortalSaudeConectada.Web.csproj|solutionrelative:portalsaudeconectada.web\\portalsaudeconectada.web.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 5,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c64b9c2-e352-428e-a56d-0ace190b99a6}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "AuthService.cs",
+              "DocumentMoniker": "C:\\Projetos\\SaudeConectada\\PortalSaudeConectada\\PortalSaudeConectada.Web\\Services\\Auth\\AuthService.cs",
+              "RelativeDocumentMoniker": "PortalSaudeConectada.Web\\Services\\Auth\\AuthService.cs",
+              "ToolTip": "C:\\Projetos\\SaudeConectada\\PortalSaudeConectada\\PortalSaudeConectada.Web\\Services\\Auth\\AuthService.cs",
+              "RelativeToolTip": "PortalSaudeConectada.Web\\Services\\Auth\\AuthService.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAAAgwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-30T00:16:17.529Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "LoginEndpoint.cs",
+              "DocumentMoniker": "C:\\Projetos\\SaudeConectada\\PortalSaudeConectada\\PortalSaudeConectada.Api\\Features\\Auth\\Login\\LoginEndpoint.cs",
+              "RelativeDocumentMoniker": "PortalSaudeConectada.Api\\Features\\Auth\\Login\\LoginEndpoint.cs",
+              "ToolTip": "C:\\Projetos\\SaudeConectada\\PortalSaudeConectada\\PortalSaudeConectada.Api\\Features\\Auth\\Login\\LoginEndpoint.cs",
+              "RelativeToolTip": "PortalSaudeConectada.Api\\Features\\Auth\\Login\\LoginEndpoint.cs",
+              "ViewState": "AgIAACYAAAAAAAAAAAAIwDIAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-30T00:12:41.408Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "LoginCommand.cs",
+              "DocumentMoniker": "C:\\Projetos\\SaudeConectada\\PortalSaudeConectada\\PortalSaudeConectada.Api\\Features\\Auth\\Login\\LoginCommand.cs",
+              "RelativeDocumentMoniker": "PortalSaudeConectada.Api\\Features\\Auth\\Login\\LoginCommand.cs",
+              "ToolTip": "C:\\Projetos\\SaudeConectada\\PortalSaudeConectada\\PortalSaudeConectada.Api\\Features\\Auth\\Login\\LoginCommand.cs",
+              "RelativeToolTip": "PortalSaudeConectada.Api\\Features\\Auth\\Login\\LoginCommand.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-30T00:12:38.486Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Login.razor",
+              "DocumentMoniker": "C:\\Projetos\\SaudeConectada\\PortalSaudeConectada\\PortalSaudeConectada.Web\\Components\\Pages\\Login.razor",
+              "RelativeDocumentMoniker": "PortalSaudeConectada.Web\\Components\\Pages\\Login.razor",
+              "ToolTip": "C:\\Projetos\\SaudeConectada\\PortalSaudeConectada\\PortalSaudeConectada.Web\\Components\\Pages\\Login.razor",
+              "RelativeToolTip": "PortalSaudeConectada.Web\\Components\\Pages\\Login.razor",
+              "ViewState": "AgIAAFEAAAAAAAAAAAAAAFkAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-30T00:11:26.695Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "GetDocEndpoint.cs",
+              "DocumentMoniker": "C:\\Projetos\\SaudeConectada\\PortalSaudeConectada\\PortalSaudeConectada.Api\\Features\\AdminDocs\\GetDoc\\GetDocEndpoint.cs",
+              "RelativeDocumentMoniker": "PortalSaudeConectada.Api\\Features\\AdminDocs\\GetDoc\\GetDocEndpoint.cs",
+              "ToolTip": "C:\\Projetos\\SaudeConectada\\PortalSaudeConectada\\PortalSaudeConectada.Api\\Features\\AdminDocs\\GetDoc\\GetDocEndpoint.cs",
+              "RelativeToolTip": "PortalSaudeConectada.Api\\Features\\AdminDocs\\GetDoc\\GetDocEndpoint.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB4AAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-29T21:47:47.61Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "IUsuarioRepository.cs",
+              "DocumentMoniker": "C:\\Projetos\\SaudeConectada\\PortalSaudeConectada\\PortalSaudeConectada.Core\\Infrastructure\\Repositories\\IUsuarioRepository.cs",
+              "RelativeDocumentMoniker": "PortalSaudeConectada.Core\\Infrastructure\\Repositories\\IUsuarioRepository.cs",
+              "ToolTip": "C:\\Projetos\\SaudeConectada\\PortalSaudeConectada\\PortalSaudeConectada.Core\\Infrastructure\\Repositories\\IUsuarioRepository.cs",
+              "RelativeToolTip": "PortalSaudeConectada.Core\\Infrastructure\\Repositories\\IUsuarioRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-29T21:27:14.262Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "AppHost.cs",
+              "DocumentMoniker": "C:\\Projetos\\SaudeConectada\\PortalSaudeConectada\\PortalSaudeConectada.AppHost\\AppHost.cs",
+              "RelativeDocumentMoniker": "PortalSaudeConectada.AppHost\\AppHost.cs",
+              "ToolTip": "C:\\Projetos\\SaudeConectada\\PortalSaudeConectada\\PortalSaudeConectada.AppHost\\AppHost.cs",
+              "RelativeToolTip": "PortalSaudeConectada.AppHost\\AppHost.cs",
+              "ViewState": "AgIAABcAAAAAAAAAAAAgwCkAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-24T10:36:43.785Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "MainLayout.razor",
+              "DocumentMoniker": "C:\\Projetos\\SaudeConectada\\PortalSaudeConectada\\PortalSaudeConectada.Web\\Components\\Layout\\MainLayout.razor",
+              "RelativeDocumentMoniker": "PortalSaudeConectada.Web\\Components\\Layout\\MainLayout.razor",
+              "ToolTip": "C:\\Projetos\\SaudeConectada\\PortalSaudeConectada\\PortalSaudeConectada.Web\\Components\\Layout\\MainLayout.razor",
+              "RelativeToolTip": "PortalSaudeConectada.Web\\Components\\Layout\\MainLayout.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAA0AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-24T00:13:58.453Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "_Imports.razor",
+              "DocumentMoniker": "C:\\Projetos\\SaudeConectada\\PortalSaudeConectada\\PortalSaudeConectada.Web\\Components\\_Imports.razor",
+              "RelativeDocumentMoniker": "PortalSaudeConectada.Web\\Components\\_Imports.razor",
+              "ToolTip": "C:\\Projetos\\SaudeConectada\\PortalSaudeConectada\\PortalSaudeConectada.Web\\Components\\_Imports.razor",
+              "RelativeToolTip": "PortalSaudeConectada.Web\\Components\\_Imports.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAA8AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-24T00:13:14.045Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "NotFound.razor",
+              "DocumentMoniker": "C:\\Projetos\\SaudeConectada\\PortalSaudeConectada\\PortalSaudeConectada.Web\\Components\\Pages\\NotFound.razor",
+              "RelativeDocumentMoniker": "PortalSaudeConectada.Web\\Components\\Pages\\NotFound.razor",
+              "ToolTip": "C:\\Projetos\\SaudeConectada\\PortalSaudeConectada\\PortalSaudeConectada.Web\\Components\\Pages\\NotFound.razor",
+              "RelativeToolTip": "PortalSaudeConectada.Web\\Components\\Pages\\NotFound.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-24T00:12:58.958Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Home.razor",
+              "DocumentMoniker": "C:\\Projetos\\SaudeConectada\\PortalSaudeConectada\\PortalSaudeConectada.Web\\Components\\Pages\\Home.razor",
+              "RelativeDocumentMoniker": "PortalSaudeConectada.Web\\Components\\Pages\\Home.razor",
+              "ToolTip": "C:\\Projetos\\SaudeConectada\\PortalSaudeConectada\\PortalSaudeConectada.Web\\Components\\Pages\\Home.razor",
+              "RelativeToolTip": "PortalSaudeConectada.Web\\Components\\Pages\\Home.razor",
+              "ViewState": "AgIAAP8AAAAAAAAAAAAAAAwBAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-24T00:15:32.017Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "C:\\Projetos\\SaudeConectada\\PortalSaudeConectada\\PortalSaudeConectada.Api\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "PortalSaudeConectada.Api\\Properties\\launchSettings.json",
+              "ToolTip": "C:\\Projetos\\SaudeConectada\\PortalSaudeConectada\\PortalSaudeConectada.Api\\Properties\\launchSettings.json",
+              "RelativeToolTip": "PortalSaudeConectada.Api\\Properties\\launchSettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-11-29T21:50:05.85Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Projetos\\SaudeConectada\\PortalSaudeConectada\\PortalSaudeConectada.Api\\Program.cs",
+              "RelativeDocumentMoniker": "PortalSaudeConectada.Api\\Program.cs",
+              "ToolTip": "C:\\Projetos\\SaudeConectada\\PortalSaudeConectada\\PortalSaudeConectada.Api\\Program.cs",
+              "RelativeToolTip": "PortalSaudeConectada.Api\\Program.cs",
+              "ViewState": "AgIAAGYAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-29T21:47:25.087Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Projetos\\SaudeConectada\\PortalSaudeConectada\\PortalSaudeConectada.Web\\Program.cs",
+              "RelativeDocumentMoniker": "PortalSaudeConectada.Web\\Program.cs",
+              "ToolTip": "C:\\Projetos\\SaudeConectada\\PortalSaudeConectada\\PortalSaudeConectada.Web\\Program.cs",
+              "RelativeToolTip": "PortalSaudeConectada.Web\\Program.cs",
+              "ViewState": "AgIAACgAAAAAAAAAAIAwwEcAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-24T00:11:03.44Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "Error.razor",
+              "DocumentMoniker": "C:\\Projetos\\SaudeConectada\\PortalSaudeConectada\\PortalSaudeConectada.Web\\Components\\Pages\\Error.razor",
+              "RelativeDocumentMoniker": "PortalSaudeConectada.Web\\Components\\Pages\\Error.razor",
+              "ToolTip": "C:\\Projetos\\SaudeConectada\\PortalSaudeConectada\\PortalSaudeConectada.Web\\Components\\Pages\\Error.razor",
+              "RelativeToolTip": "PortalSaudeConectada.Web\\Components\\Pages\\Error.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-24T00:15:35.037Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "App.razor",
+              "DocumentMoniker": "C:\\Projetos\\SaudeConectada\\PortalSaudeConectada\\PortalSaudeConectada.Web\\Components\\App.razor",
+              "RelativeDocumentMoniker": "PortalSaudeConectada.Web\\Components\\App.razor",
+              "ToolTip": "C:\\Projetos\\SaudeConectada\\PortalSaudeConectada\\PortalSaudeConectada.Web\\Components\\App.razor",
+              "RelativeToolTip": "PortalSaudeConectada.Web\\Components\\App.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-24T00:08:20.564Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "PortalSaudeConectada.Web.csproj",
+              "DocumentMoniker": "C:\\Projetos\\SaudeConectada\\PortalSaudeConectada\\PortalSaudeConectada.Web\\PortalSaudeConectada.Web.csproj",
+              "RelativeDocumentMoniker": "PortalSaudeConectada.Web\\PortalSaudeConectada.Web.csproj",
+              "ToolTip": "C:\\Projetos\\SaudeConectada\\PortalSaudeConectada\\PortalSaudeConectada.Web\\PortalSaudeConectada.Web.csproj",
+              "RelativeToolTip": "PortalSaudeConectada.Web\\PortalSaudeConectada.Web.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-11-24T00:12:01.801Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "NavMenu.razor",
+              "DocumentMoniker": "C:\\Projetos\\SaudeConectada\\PortalSaudeConectada\\PortalSaudeConectada.Web\\Components\\Layout\\NavMenu.razor",
+              "RelativeDocumentMoniker": "PortalSaudeConectada.Web\\Components\\Layout\\NavMenu.razor",
+              "ToolTip": "C:\\Projetos\\SaudeConectada\\PortalSaudeConectada\\PortalSaudeConectada.Web\\Components\\Layout\\NavMenu.razor",
+              "RelativeToolTip": "PortalSaudeConectada.Web\\Components\\Layout\\NavMenu.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAABlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-24T00:09:56.137Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "Routes.razor",
+              "DocumentMoniker": "C:\\Projetos\\SaudeConectada\\PortalSaudeConectada\\PortalSaudeConectada.Web\\Components\\Routes.razor",
+              "RelativeDocumentMoniker": "PortalSaudeConectada.Web\\Components\\Routes.razor",
+              "ToolTip": "C:\\Projetos\\SaudeConectada\\PortalSaudeConectada\\PortalSaudeConectada.Web\\Components\\Routes.razor",
+              "RelativeToolTip": "PortalSaudeConectada.Web\\Components\\Routes.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-24T00:08:25.068Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+﻿@using Microsoft.AspNetCore.Components.Authorization
+
+<MudNavMenu>
+    <MudNavLink Href="" Match="NavLinkMatch.All" Icon="@Icons.Material.Filled.Home">Home</MudNavLink>
+
+    <AuthorizeView>
+        <Authorized>
+            <MudNavGroup Title="Admin" Icon="@Icons.Material.Filled.AdminPanelSettings" Expanded="false">
+                <AuthorizeView Policy="GestorOrAdmin">
+                    <Authorized Context="gestorContext">
+                        <MudNavLink Href="/admin/metrics" Icon="@Icons.Material.Filled.Analytics">Métricas</MudNavLink>
+                        <MudNavLink Href="/admin/docs" Icon="@Icons.Material.Filled.Description">Documentação</MudNavLink>
+                        <MudNavLink Href="/admin/team" Icon="@Icons.Material.Filled.Group">Equipe</MudNavLink>
+                    </Authorized>
+                </AuthorizeView>
+                <AuthorizeView Policy="AdminOnly">
+                    <Authorized Context="adminContext">
+                        <MudNavLink Href="/admin/settings" Icon="@Icons.Material.Filled.Settings">Configurações</MudNavLink>
+                    </Authorized>
+                </AuthorizeView>
+            </MudNavGroup>
+        </Authorized>
+        <NotAuthorized>
+            <MudNavLink Href="/login" Icon="@Icons.Material.Filled.Login">Login</MudNavLink>
+        </NotAuthorized>
+    </AuthorizeView>
+</MudNavMenu>

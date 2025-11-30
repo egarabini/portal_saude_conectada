@@ -1,0 +1,309 @@
+[
+  {
+    "ContainingType": "PortalSaudeConectada.Api.Features.AdminDocsEndpoints",
+    "Method": "ListDocs",
+    "RelativePath": "api/admin/docs/",
+    "HttpMethod": "GET",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "projeto",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ],
+    "Tags": [
+      "Admin - Docs"
+    ],
+    "EndpointName": "ListDocs"
+  },
+  {
+    "ContainingType": "PortalSaudeConectada.Api.Features.AdminDocsEndpoints",
+    "Method": "GetDoc",
+    "RelativePath": "api/admin/docs/{projeto}/{*filepath}",
+    "HttpMethod": "GET",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "projeto",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "filepath",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ],
+    "Tags": [
+      "Admin - Docs"
+    ],
+    "EndpointName": "GetDoc"
+  },
+  {
+    "ContainingType": "PortalSaudeConectada.Api.Features.AdminDocsEndpoints",
+    "Method": "SearchDocs",
+    "RelativePath": "api/admin/docs/search",
+    "HttpMethod": "POST",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "PortalSaudeConectada.Api.Features.SearchRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ],
+    "Tags": [
+      "Admin - Docs"
+    ],
+    "EndpointName": "SearchDocs"
+  },
+  {
+    "ContainingType": "PortalSaudeConectada.Api.Features.AdminMetricsEndpoints",
+    "Method": "GetProjectMetrics",
+    "RelativePath": "api/admin/metrics/{projeto}",
+    "HttpMethod": "GET",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "projeto",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ],
+    "Tags": [
+      "Admin - Metrics"
+    ],
+    "EndpointName": "GetProjectMetrics"
+  },
+  {
+    "ContainingType": "PortalSaudeConectada.Api.Features.AdminMetricsEndpoints",
+    "Method": "GetOverview",
+    "RelativePath": "api/admin/metrics/overview",
+    "HttpMethod": "GET",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ],
+    "Tags": [
+      "Admin - Metrics"
+    ],
+    "EndpointName": "GetMetricsOverview"
+  },
+  {
+    "ContainingType": "PortalSaudeConectada.Api.Features.AdminTeamEndpoints",
+    "Method": "GetBacklog",
+    "RelativePath": "api/admin/team/backlog",
+    "HttpMethod": "GET",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ],
+    "Tags": [
+      "Admin - Team"
+    ],
+    "EndpointName": "GetBacklog"
+  },
+  {
+    "ContainingType": "PortalSaudeConectada.Api.Features.AdminTeamEndpoints",
+    "Method": "GetSprints",
+    "RelativePath": "api/admin/team/sprints",
+    "HttpMethod": "GET",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ],
+    "Tags": [
+      "Admin - Team"
+    ],
+    "EndpointName": "GetSprints"
+  },
+  {
+    "ContainingType": "PortalSaudeConectada.Api.Features.AuthEndpoints",
+    "Method": "Login",
+    "RelativePath": "api/auth/login",
+    "HttpMethod": "POST",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "PortalSaudeConectada.Api.Features.LoginRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ],
+    "Tags": [
+      "Auth"
+    ],
+    "EndpointName": "Login"
+  },
+  {
+    "ContainingType": "PortalSaudeConectada.Api.Features.AuthEndpoints",
+    "Method": "Logout",
+    "RelativePath": "api/auth/logout",
+    "HttpMethod": "POST",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ],
+    "Tags": [
+      "Auth"
+    ],
+    "EndpointName": "Logout"
+  },
+  {
+    "ContainingType": "PortalSaudeConectada.Api.Features.AuthEndpoints",
+    "Method": "Refresh",
+    "RelativePath": "api/auth/refresh",
+    "HttpMethod": "POST",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "PortalSaudeConectada.Api.Features.RefreshRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ],
+    "Tags": [
+      "Auth"
+    ],
+    "EndpointName": "RefreshToken"
+  },
+  {
+    "ContainingType": "PortalSaudeConectada.Api.Features.PublicEndpoints",
+    "Method": "GetCatalogos",
+    "RelativePath": "api/public/catalogos",
+    "HttpMethod": "GET",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ],
+    "Tags": [
+      "Public"
+    ],
+    "EndpointName": "GetCatalogos"
+  },
+  {
+    "ContainingType": "PortalSaudeConectada.Api.Features.PublicEndpoints",
+    "Method": "PostContato",
+    "RelativePath": "api/public/contato",
+    "HttpMethod": "POST",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "PortalSaudeConectada.Api.Features.ContatoRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ],
+    "Tags": [
+      "Public"
+    ],
+    "EndpointName": "PostContato"
+  },
+  {
+    "ContainingType": "PortalSaudeConectada.Api.Features.PublicEndpoints",
+    "Method": "GetStatus",
+    "RelativePath": "api/public/status",
+    "HttpMethod": "GET",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ],
+    "Tags": [
+      "Public"
+    ],
+    "EndpointName": "GetStatus"
+  }
+]

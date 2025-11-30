@@ -1,0 +1,9 @@
+<Solution>
+  <Project Path="PortalSaudeConectada.Api/PortalSaudeConectada.Api.csproj" />
+  <Project Path="PortalSaudeConectada.AppHost/PortalSaudeConectada.AppHost.csproj" />
+  <Project Path="PortalSaudeConectada.Core/PortalSaudeConectada.Core.csproj" />
+  <Project Path="PortalSaudeConectada.ServiceDefaults/PortalSaudeConectada.ServiceDefaults.csproj" />
+  <Project Path="PortalSaudeConectada.Shared/PortalSaudeConectada.Shared.csproj" />
+  <Project Path="PortalSaudeConectada.Tests/PortalSaudeConectada.Tests.csproj" />
+  <Project Path="PortalSaudeConectada.Web/PortalSaudeConectada.Web.csproj" />
+</Solution>

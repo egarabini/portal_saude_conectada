@@ -1,0 +1,369 @@
+{
+  "openapi": "3.1.1",
+  "info": {
+    "title": "PortalSaudeConectada.Api | v1",
+    "version": "1.0.0"
+  },
+  "servers": [
+    {
+      "url": "https://localhost:53323"
+    },
+    {
+      "url": "http://localhost:53324"
+    }
+  ],
+  "paths": {
+    "/api/public/status": {
+      "get": {
+        "tags": [
+          "Public"
+        ],
+        "operationId": "GetStatus",
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/public/catalogos": {
+      "get": {
+        "tags": [
+          "Public"
+        ],
+        "operationId": "GetCatalogos",
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/public/contato": {
+      "post": {
+        "tags": [
+          "Public"
+        ],
+        "operationId": "PostContato",
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/ContatoRequest"
+              }
+            }
+          },
+          "required": true
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/admin/metrics/overview": {
+      "get": {
+        "tags": [
+          "Admin - Metrics"
+        ],
+        "operationId": "GetMetricsOverview",
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/admin/metrics/{projeto}": {
+      "get": {
+        "tags": [
+          "Admin - Metrics"
+        ],
+        "operationId": "GetProjectMetrics",
+        "parameters": [
+          {
+            "name": "projeto",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/admin/docs": {
+      "get": {
+        "tags": [
+          "Admin - Docs"
+        ],
+        "operationId": "ListDocs",
+        "parameters": [
+          {
+            "name": "projeto",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/admin/docs/{projeto}/{filepath}": {
+      "get": {
+        "tags": [
+          "Admin - Docs"
+        ],
+        "operationId": "GetDoc",
+        "parameters": [
+          {
+            "name": "projeto",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "filepath",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/admin/docs/search": {
+      "post": {
+        "tags": [
+          "Admin - Docs"
+        ],
+        "operationId": "SearchDocs",
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/SearchRequest"
+              }
+            }
+          },
+          "required": true
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/admin/team/backlog": {
+      "get": {
+        "tags": [
+          "Admin - Team"
+        ],
+        "operationId": "GetBacklog",
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/admin/team/sprints": {
+      "get": {
+        "tags": [
+          "Admin - Team"
+        ],
+        "operationId": "GetSprints",
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/auth/login": {
+      "post": {
+        "tags": [
+          "Auth"
+        ],
+        "operationId": "Login",
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/LoginRequest"
+              }
+            }
+          },
+          "required": true
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/auth/refresh": {
+      "post": {
+        "tags": [
+          "Auth"
+        ],
+        "operationId": "RefreshToken",
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/RefreshRequest"
+              }
+            }
+          },
+          "required": true
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/auth/logout": {
+      "post": {
+        "tags": [
+          "Auth"
+        ],
+        "operationId": "Logout",
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    }
+  },
+  "components": {
+    "schemas": {
+      "ContatoRequest": {
+        "required": [
+          "nome",
+          "email",
+          "telefone",
+          "organizacao",
+          "mensagem"
+        ],
+        "type": "object",
+        "properties": {
+          "nome": {
+            "type": "string"
+          },
+          "email": {
+            "type": "string"
+          },
+          "telefone": {
+            "type": [
+              "null",
+              "string"
+            ]
+          },
+          "organizacao": {
+            "type": [
+              "null",
+              "string"
+            ]
+          },
+          "mensagem": {
+            "type": "string"
+          }
+        }
+      },
+      "LoginRequest": {
+        "required": [
+          "email",
+          "password"
+        ],
+        "type": "object",
+        "properties": {
+          "email": {
+            "type": "string"
+          },
+          "password": {
+            "type": "string"
+          }
+        }
+      },
+      "RefreshRequest": {
+        "required": [
+          "refreshToken"
+        ],
+        "type": "object",
+        "properties": {
+          "refreshToken": {
+            "type": "string"
+          }
+        }
+      },
+      "SearchRequest": {
+        "required": [
+          "query"
+        ],
+        "type": "object",
+        "properties": {
+          "query": {
+            "type": "string"
+          },
+          "projeto": {
+            "type": [
+              "null",
+              "string"
+            ]
+          },
+          "limit": {
+            "pattern": "^-?(?:0|[1-9]\\d*)$",
+            "type": [
+              "integer",
+              "string"
+            ],
+            "format": "int32",
+            "default": 20
+          }
+        }
+      }
+    }
+  },
+  "tags": [
+    {
+      "name": "Public"
+    },
+    {
+      "name": "Admin - Metrics"
+    },
+    {
+      "name": "Admin - Docs"
+    },
+    {
+      "name": "Admin - Team"
+    },
+    {
+      "name": "Auth"
+    }
+  ]
+}
